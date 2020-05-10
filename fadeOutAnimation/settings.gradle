@@ -1,0 +1,2 @@
+rootProject.name='fadeOutAnimation'
+include ':app'
