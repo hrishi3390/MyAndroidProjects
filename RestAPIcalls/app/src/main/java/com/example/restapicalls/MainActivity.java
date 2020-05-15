@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 //                "}";
 
         DownloadTask task = new DownloadTask();
-        task.execute("https://sheets.googleapis.com/v4/spreadsheets/1o_ngu-6okFhVBsPcNkQTSo8oor_49ceuYKirCCqEDtE/values/Sheet1!A1:D20?key=AIzaSyDbeeTsQcMXaWliGIOFVoyp4tqeKLQPd0Q");
+        task.execute("https://sheets.googleapis.com//");
     }
 
     public class DownloadTask extends AsyncTask<String, Void, String> {
